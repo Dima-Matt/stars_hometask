@@ -1,0 +1,18 @@
+input[name="star"]{
+     display: none; 
+}
+
+
+label {
+    color: rgb(212, 184, 25);
+}
+
+input:checked~label {
+    color: red;
+}
+
+.con {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
